@@ -19,7 +19,7 @@ unsigned long currentMillis = 0;
 //
 // mail di default del ricevente il file dati
 //
-char recipient[50]="pierundcarla@gmail.com";    // <------------ mail destinatario default
+char recipient[50]="MAILRECIPIENT@xxxx.xxx";    // <------------ mail destinatario default
 //
 // Temperatura
 //

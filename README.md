@@ -1,6 +1,6 @@
 ESP 32 LOGGER FOR MAHLER CALORIMETER
 -------------------------------------
-
+![Mahler temperature logger](Docs/images/MahlerLogger.jpg)
 CONFIGURAZIONE
 ---------------
 I file da modificare prima della compilazione sono:

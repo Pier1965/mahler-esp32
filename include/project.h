@@ -12,6 +12,8 @@
 #include "config/hw_settings.h"
 // configurazione dei parametri della mail
 #include "config/mail_settings.h"
+// colfigurazione server ntp e ora locale
+#include "config/ntp_settings.h"
 // configurazione dei nomi dell'access point e hostname
 #include "config/net_settings.h"
 // configurazione dei parametri della prova: intervallo di lettuta e Nmax letture

@@ -42,8 +42,8 @@ The files to modify before compilation are:
 USE
 ---
 1) Turn on the ESP32;
-    a) If the network is not configured, connect to "MahlerAP" with a phone or other device;
-    b) To change the network the ESP connects to, in OZIOSO mode press the button for 10 seconds (white LED) and connect to "MahlerAP" with a phone or other device;
+  a) If the network is not configured, connect to "MahlerAP" with a phone or other device;
+  b) To change the network the ESP connects to, in OZIOSO mode press the button for 10 seconds (white LED) and connect to "MahlerAP" with a phone or other device;
 2) Using a browser, go to address 192.168.4.1 and enter the credentials for the network to connect the ESP to;
 3) The ESP will reboot and automatically connect to the configured network;
 4) The ESP will enter OZIOSO mode with a blinking green LED;

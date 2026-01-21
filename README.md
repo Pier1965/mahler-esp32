@@ -4,12 +4,12 @@ ESP 32 LOGGER FOR MAHLER CALORIMETER
 CONFIGURAZIONE
 ---------------
 I file da modificare prima della compilazione sono:
-1. include/config/define.h per compilazione condizionale;
-2. include/config/hw_settings.h per pin e parametri riguardanti l'hw;
-3. include/config/mail_settings.h per i parametri SMTP del provider di posta elettronica;
-4. include/config/ntp_conf.h eventuale cambio del server ntp, ora locale e ora legale;
-5. include/config/parametri_prova.h contiene il numero massimo di misure da fare e il tempo tra le stesse in millisecondi;
-6. src/globals/global_variables.cpp la mail del ricevente di default, che può anche essere cambiata
+1. `include/config/define.h` per compilazione condizionale;
+2. `include/config/hw_settings.h` per pin e parametri riguardanti l'hw;
+3. `include/config/mail_settings.h` per i parametri SMTP del provider di posta elettronica;
+4. `include/config/ntp_settings.h` eventuale cambio del server ntp, ora locale e ora legale;
+5. `include/config/parametri_prova.h` contiene il numero massimo di misure da fare e il tempo tra le stesse in millisecondi;
+6. `src/globals/global_variables.cpp` la mail del ricevente di default, che può anche essere cambiata
 a run time dal portale MahlerAP;
 
 
@@ -35,7 +35,7 @@ The files to modify before compilation are:
 1. `include/config/define.h` for conditional compilation;
 2. `include/config/hw_settings.h` for pins and parameters related to hardware;
 3. `include/config/mail_settings.h` for SMTP parameters of the email provider;
-4. `include/config/ntp_conf.h` for possible changes to the NTP server, local time, and daylight saving time;
+4. `include/config/ntp_settings.h` for possible changes to the NTP server, local time, and daylight saving time;
 5. `include/config/parametri_prova.h` contains the maximum number of measurements to take and the time between them in milliseconds;
 6. `src/globals/global_variables.cpp` the default recipient email, which can also be changed at runtime from the MahlerAP portal;
 

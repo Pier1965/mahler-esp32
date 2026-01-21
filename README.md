@@ -16,8 +16,8 @@ a run time dal portale MahlerAP;
 USO
 -----
 1. Attivare l'ESP32;
-    a. Se la rete non è configurata, connettersi a "MahlerAP" con un cellulare o altro;
-    b. Se si vuole cambiare la rete cui si connette ESP, in modalità OZIOSO schiacciare per 10s il pulsante
+    - Se la rete non è configurata, connettersi a "MahlerAP" con un cellulare o altro;
+    - Se si vuole cambiare la rete cui si connette ESP, in modalità OZIOSO schiacciare per 10s il pulsante
 (led color bianco. e connettersi a "MahlerAP" con un cellulare o altro;
 2. Con il browser andare all'indirizzo 192.168.4.1 e immettere i dati della rete cui connettere l'ESP;
 3. L'ESP si riavvierà e si collegherà in automatico alla rete configurata;
@@ -42,8 +42,8 @@ The files to modify before compilation are:
 USE
 ---
 1. Turn on the ESP32;
-  a. If the network is not configured, connect to "MahlerAP" with a phone or other device;
-  b. To change the network the ESP connects to, in OZIOSO mode press the button for 10 seconds (white LED. and connect to "MahlerAP" with a phone or other device;
+  - If the network is not configured, connect to "MahlerAP" with a phone or other device;
+  - To change the network the ESP connects to, in OZIOSO mode press the button for 10 seconds (white LED. and connect to "MahlerAP" with a phone or other device;
 2. Using a browser, go to address 192.168.4.1 and enter the credentials for the network to connect the ESP to;
 3. The ESP will reboot and automatically connect to the configured network;
 4. The ESP will enter OZIOSO mode with a blinking green LED;
